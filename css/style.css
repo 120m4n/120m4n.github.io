@@ -348,6 +348,10 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   display: flex;
 }
 
+.iframes .iframe-container .iframe-row .ifram-item iframe {
+  border: none;
+}
+
 @media all and (min-width: 769px) {
   .iframes {
     height: 1042.6px;
@@ -367,6 +371,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
     padding-top: 186px;
     padding-left: 200px;
     padding-bottom: 26px;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 48px;
     color: #FFFFFF;
     letter-spacing: 0;

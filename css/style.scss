@@ -349,6 +349,10 @@ header{
                 flex-basis: 100%;
                 position: relative;
                 display: flex;
+
+                iframe{
+                    border: none;
+                }
               }
               
           }
@@ -372,6 +376,7 @@ header{
             padding-top: 186px;
             padding-left: 200px;
             padding-bottom: 26px;
+            font-family: 'IBM Plex Sans', sans-serif;
             font-size: 48px;
             color: #FFFFFF;
             letter-spacing: 0;
