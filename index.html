@@ -3,39 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="estilos.css" >
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
-
-
+    <title>Podcast Channel</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"  crossorigin="anonymous"/>
+    
 </head>
 <body>
-        <header>
-            <nav>
-                <a href="#" id="icono" class="icono"> Menu</a>
-                <div class="enlaces uno" id="enlaces">
-
-                    <a href="" class="href">Inicio</a>
-                    <a href="" class="href">Acerca de</a>
-                    <a href="" class="href">Contacto</a>
-                </div>
-            </nav>
-                <div class="container">                
-                    <div class="textos">
-                        <h1>Roman Sarmiento</h1>
-                        <h2>hacemos la web ideal para ti</h2>
-                        <a href="#">Contacto</a>
-                    </div>
-                    <img src="2650147.png" alt="">
-                </div>
+    <div class="wrapper">
 
 
-
-
+   
+        <header class="header">
+            <div class="logo">
+                <img src="images\logo.svg" alt="logo">
+            </div>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+            <ul class="menu">
+                <li><a href="#episodes">EPISODIOS</a></li>
+                <li><a href="#history">NOSOTROS</a></li>
+                <li><a href="#guests">ENTREVISTAS</a></li>
+                <li><a href="#topics">TÓPICOS</a></li>
+            </ul>
         </header>
-        <div class="wave">
-            <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+
+        <section class="introduction">
+            <div class="heading">
+               Hello <span>world</span> pale blue dot<span>.</span>
+            </div>
+           
+            <div class="parrafo">
+                <p><span>Un</span><span>El portal de</span> podcast<span>s</span> que explora el mundo de la programación<span> y la tecnología</span>. Nuevos episodios, todos los jueves cada 15 días.</p>
+            </div>
+
+            <a href="https://open.spotify.com/show/2ySVrxGkN6n6frMTo9Nsrt"><button type="button" >CONOCÉ MÁS</button></a>
+        </section>
+
+        <section class="iframes">
+            <div class="heading" id="episodes">Episodios</div>   
+            <div class="iframe-container">
+             
+                <div class="iframe-row">
+                    <div class="ifram-item">
+                        <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="ifram-item">
+                        <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="ifram-item">
+                        <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="ifram-item">
+                        <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+            </div>
+          
+        </section>
+
+    <section class="history" id="history">
+        <div class="imagen">
+            <img src="images\phone.png" alt="phone">
         </div>
-        <script src="./script.js"></script>
+        <div class="text">
+            <div class="heading">De dónde venimos</div>
+            <p>
+                Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. 
+            </p>
+            <br>
+            <p>
+                Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+            </p>
+
+        </div>
+
+    </section>
+
+        
+
+    <section class="guests" id="guests">  
+        <div class="heading">Invitadas/os estelares</div>
+
+        <div class="image-container">
+            <div class="image-box">
+                <img class="image-item" src="../images/grace-hopper.png" alt="grace-hopper" width="640" height="486" >
+            </div>
+        
+            <div class="image-box">
+                <img class="image-item" src="../images/Katie-Bouman.png" alt="Katie-Bouman" width="640" height="486">
+            </div>
+        
+            <div class="image-box">
+                <img class="image-item" src="../images/Margaret_Hamilton.png" alt="Margaret_Hamilton" width="640" height="486">
+            </div>
+            <div class="image-box">
+                <img class="image-item" src="../images/An E.R.A.Univac 1103 computer in the 1950s.png" alt="Univac" width="640" height="486">
+            </div>
+        
+            <div class="image-box">
+                <img class="image-item" src="../images/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="Eniac" width="640" height="486">
+            </div>
+
+            <div class="image-box">
+                <img class="image-item" src="../images/susan-kare.png" alt="susan-kare" width="640" height="486"> 
+            </div>
+
+        </div>       
+            
+    </section> 
+     <section class=topics id="topics">
+
+        <div class="heading">Algunos de nuestros temas</div>
+        <div class="icon-container">      
+            
+            <div class="icon-box">
+                <img class="icon-item" src="../images/icon1.svg" alt="remoto" width="104" height="104">
+                <div>Trabajo remoto</div>
+            </div>
+            <div class="icon-box">
+                <img class="icon-item" src="../images/icon2.svg" alt="programacion" width="104" height="104">
+                <div>Repensando la programación</div>
+            </div>
+            <div class="icon-box">
+                <img class="icon-item" src="../images/icon3.svg" alt="bases codigo" width="104" height="104">
+                <div>Bases del código</div> 
+            </div>
+            <div class="icon-box">
+                <img class="icon-item" src="../images/icon4.svg" alt="seguridad" width="104" height="104">
+                <div>Seguridad informática</div>
+            </div>
+        </div>
+
+    </section>
+    <section class="novelties">
+        <div class="heading">¿Querés las últimas novedades?</div>
+        <a href='#episodes'><button type="button" >ESCUCHÁ LOS EPISODIOS</button></a>
+
+    </section>
+    <section class="footer">
+       <div class="copyright">© 2019— Hello blue pale dot</div> 
+       <div class="social-icons">
+        <i class="fab fa-spotify"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-telegram"></i>
+       </div>
+
+    </section>
+
+    </div>
 </body>
 </html>
