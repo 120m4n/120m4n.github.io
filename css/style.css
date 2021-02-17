@@ -240,7 +240,10 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   max-width: 628px;
 }
 
-.introduction button {
+.introduction a.button {
+  -webkit-appearance: button;
+     -moz-appearance: button;
+          appearance: button;
   font-family: 'IBM Plex Mono', monospace;
   border: none;
   font-weight: bold;
@@ -252,9 +255,11 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   text-align: center;
   line-height: 22px;
   width: 288px;
+  text-decoration: none;
+  color: initial;
 }
 
-.introduction button:hover {
+.introduction a.button:hover {
   color: #FFFFFF;
   background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
 }
@@ -285,14 +290,13 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   .introduction .parrafo span:nth-child(1) {
     display: none;
   }
-  .introduction button {
+  .introduction a.button {
     padding: 16px 0px;
     font-size: 18px;
     color: #060A24;
     letter-spacing: 0;
     text-align: center;
     line-height: 24px;
-    width: 226px;
   }
 }
 
@@ -350,6 +354,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
 
 .iframes .iframe-container .iframe-row .ifram-item iframe {
   border: none;
+  width: 100%;
 }
 
 @media all and (min-width: 769px) {
@@ -619,7 +624,10 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   line-height: 42px;
 }
 
-.novelties button {
+.novelties a.button {
+  -webkit-appearance: button;
+     -moz-appearance: button;
+          appearance: button;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   background: #00F3BB;
@@ -632,9 +640,11 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   margin-bottom: 67px;
   width: 288px;
   border: none;
+  text-decoration: none;
+  color: initial;
 }
 
-.novelties button:hover {
+.novelties a.button:hover {
   color: #FFFFFF;
   background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
 }
@@ -645,7 +655,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
     -webkit-clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
             clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
   }
-  .novelties button {
+  .novelties a.button {
     margin-bottom: 151px;
     font-size: 18px;
     line-height: 24px;

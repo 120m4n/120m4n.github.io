@@ -245,7 +245,8 @@ header{
 
 
 
-    button{
+    a.button{
+        appearance: button;
         font-family: 'IBM Plex Mono', monospace;
         border: none;
         font-weight: bold;
@@ -257,12 +258,15 @@ header{
         text-align: center;
         line-height: 22px;
         width: 288px;
+
+        text-decoration: none;
+        color: initial;
         
 
        
     }
 
-    button:hover{
+    a.button:hover{
         color: #FFFFFF;
         background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%); 
         
@@ -302,14 +306,14 @@ header{
             }
         }
 
-        button{
+        a.button{
             padding: 16px 0px;
             font-size: 18px;
             color: #060A24;
             letter-spacing: 0;
             text-align: center;
             line-height: 24px;
-            width: 226px;
+            // width: 226px;
         }
 
     }
@@ -352,6 +356,7 @@ header{
 
                 iframe{
                     border: none;
+                    width: 100%;
                 }
               }
               
@@ -545,6 +550,8 @@ header{
       .icon-item{
         margin:13px auto;
       }
+
+
       @media all and (min-width: 769px){
         
         .heading{
@@ -601,7 +608,30 @@ header{
         line-height: 42px;
       }
 
-      button{
+    //   button{
+    //     font-family: 'IBM Plex Mono', monospace;
+    //     font-weight: bold;
+    //     background: #00F3BB;  
+    //     font-size: 16px;
+    //     color: #060A24;
+    //     letter-spacing: 0;
+    //     text-align: center;
+    //     line-height: 22px;
+
+    //     padding: 13px 0px;
+    //     margin-bottom: 67px;
+    //     width: 288px; 
+    //     border: none;
+    // }
+
+    // button:hover{
+    //     color: #FFFFFF;
+    //     background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%); 
+        
+    // }
+
+    a.button {
+        appearance: button;
         font-family: 'IBM Plex Mono', monospace;
         font-weight: bold;
         background: #00F3BB;  
@@ -615,21 +645,23 @@ header{
         margin-bottom: 67px;
         width: 288px; 
         border: none;
-
-      
+    
+        text-decoration: none;
+        color: initial;
     }
 
-    button:hover{
+    a.button:hover{
         color: #FFFFFF;
         background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%); 
         
     }
 
+
     @media all and (min-width: 769px){
         margin-top: 34px;
         clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
 
-        button{
+        a.button{
             margin-bottom: 151px;
             font-size: 18px;
             line-height: 24px;
