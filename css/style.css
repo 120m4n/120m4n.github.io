@@ -241,9 +241,6 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
 }
 
 .introduction button {
-  -webkit-appearance: button;
-     -moz-appearance: button;
-          appearance: button;
   font-family: 'IBM Plex Mono', monospace;
   border: none;
   font-weight: bold;
