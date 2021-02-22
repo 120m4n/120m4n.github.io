@@ -240,7 +240,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   max-width: 628px;
 }
 
-.introduction a.button {
+.introduction button {
   -webkit-appearance: button;
      -moz-appearance: button;
           appearance: button;
@@ -257,11 +257,16 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   width: 288px;
   text-decoration: none;
   color: initial;
+  cursor: pointer;
 }
 
-.introduction a.button:hover {
+.introduction button:hover {
   color: #FFFFFF;
   background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+}
+
+.introduction button:focus {
+  outline: none;
 }
 
 @media all and (min-width: 769px) {
@@ -290,7 +295,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   .introduction .parrafo span:nth-child(1) {
     display: none;
   }
-  .introduction a.button {
+  .introduction button {
     padding: 16px 0px;
     font-size: 18px;
     color: #060A24;
@@ -624,10 +629,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   line-height: 42px;
 }
 
-.novelties a.button {
-  -webkit-appearance: button;
-     -moz-appearance: button;
-          appearance: button;
+.novelties button {
   font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   background: #00F3BB;
@@ -640,13 +642,16 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   margin-bottom: 67px;
   width: 288px;
   border: none;
-  text-decoration: none;
-  color: initial;
+  cursor: pointer;
 }
 
-.novelties a.button:hover {
+.novelties button:hover {
   color: #FFFFFF;
   background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+}
+
+.novelties button:focus {
+  outline: none;
 }
 
 @media all and (min-width: 769px) {
@@ -655,7 +660,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
     -webkit-clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
             clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
   }
-  .novelties a.button {
+  .novelties button {
     margin-bottom: 151px;
     font-size: 18px;
     line-height: 24px;
@@ -698,6 +703,12 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+.footer a:link,
+.footer a:visited,
+.footer a:active {
+  color: #060A24;
 }
 
 @media all and (min-width: 769px) {
