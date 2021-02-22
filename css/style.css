@@ -312,11 +312,13 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
           flex: 1 100%;
 }
 
+.iframes h2,
 .iframes .heading {
   padding-top: 64px;
   margin-bottom: 21px;
   margin-left: 16px;
   font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: normal;
   font-size: 36px;
   color: #FFFFFF;
   letter-spacing: 0;
@@ -374,6 +376,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
         flex-basis: 40.556%;
     height: 232px;
   }
+  .iframes h2,
   .iframes .heading {
     padding-top: 186px;
     padding-left: 200px;
@@ -422,9 +425,11 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   margin-top: 27px;
 }
 
+.history h2,
 .history .heading {
   font-family: 'IBM Plex Sans';
   font-size: 36px;
+  font-weight: normal;
   color: #060A24;
   letter-spacing: 0;
   line-height: 42px;
@@ -440,6 +445,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
     height: 660px;
     top: -168.6px;
   }
+  .history h2,
   .history .heading {
     padding-bottom: 24px;
     font-size: 48px;
@@ -453,6 +459,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   /* TODO insertar en las media queries para obtener el comportamiento */
 }
 
+.guests h2,
 .guests .heading {
   margin-top: 54px;
   margin-bottom: 14px;
@@ -460,6 +467,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   margin-right: 16px;
   font-family: 'IBM Plex Sans';
   font-size: 36px;
+  font-weight: 400;
   color: #060A24;
   letter-spacing: 0;
   line-height: 42px;
@@ -493,6 +501,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
 }
 
 @media all and (min-width: 769px) {
+  .guests h2,
   .guests .heading {
     font-size: 48px;
     line-height: 62px;
@@ -509,6 +518,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   }
 }
 
+.topics h2,
 .topics .heading {
   margin-top: 48px;
   margin-bottom: 24px;
@@ -516,6 +526,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   margin-right: 16px;
   font-family: 'IBM Plex Sans';
   font-size: 36px;
+  font-weight: 400;
   color: #060A24;
   letter-spacing: 0;
   line-height: 42px;
@@ -564,6 +575,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
 }
 
 @media all and (min-width: 769px) {
+  .topics h2,
   .topics .heading {
     font-size: 48px;
     line-height: 62px;
@@ -613,12 +625,14 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
           align-items: center;
 }
 
+.novelties h2,
 .novelties .heading {
   margin-top: 64px;
   margin-bottom: 36px;
   margin-left: 16px;
   margin-right: 16px;
   font-family: 'IBM Plex Sans';
+  font-weight: 400;
   font-size: 36px;
   color: #FFFFFF;
   letter-spacing: 0;
@@ -662,6 +676,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
     font-size: 18px;
     line-height: 24px;
   }
+  .novelties h2,
   .novelties .heading {
     margin-top: 213px;
     font-size: 48px;
@@ -700,6 +715,10 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+.footer i {
+  cursor: pointer;
 }
 
 .footer a:link,
